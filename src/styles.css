@@ -7,7 +7,7 @@ body {
   grid-template-rows: 1fr;
 }
 
-nav {
+nav#mainNav {
   grid-column: 1;
   background-color: lightcoral;
 }

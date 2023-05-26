@@ -17,12 +17,15 @@
 
   -->
 
-  <nav>
+  <nav id="mainNav">
     <application name="@cbr/arm-navigator"></application>
   </nav>
-  <route path="angular">
-    <main>
+  <main>
+    <route path="angular">
       <application name="@cbr/arm-angular"></application>
-    </main>
-  </route>
+    </route>
+    <route path="vue">
+      <application name="@cbr/arm-vue"></application>
+    </route>
+  </main>
 </single-spa-router>
