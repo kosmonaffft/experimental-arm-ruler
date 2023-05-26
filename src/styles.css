@@ -4,9 +4,18 @@ body {
   width: 100vw;
   display: grid;
   grid-template-columns: 1fr 11fr;
+  grid-template-rows: 1fr;
 }
 
 nav {
   grid-column: 1;
-  background-color: lightblue;
+  background-color: lightcoral;
+}
+
+main {
+  grid-column: 2;
+  background-color: lightgray;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
 }
